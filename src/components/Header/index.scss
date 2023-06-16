@@ -1,0 +1,33 @@
+header{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 767px){
+        padding: 20px;
+    }
+    img{
+        width: 211px;
+        height: 68px;
+        @media (max-width: 767px) {
+            width: 145px;
+            height: 46.88px;
+        }
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 57px;
+        a{
+            color: $color-primary;
+            text-decoration: none;
+            margin: 0 5px;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        
+    }
+}
