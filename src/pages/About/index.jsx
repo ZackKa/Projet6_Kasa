@@ -10,7 +10,9 @@ function About() {
         <>
             <Header />
             <main>
-                <Banniere cover = {ImageAbout} />
+                <div className="banniereAbout">
+                    <Banniere cover = {ImageAbout} />
+                </div>
                 <div className='collapsible'>
                     <Collapse label="Fiabilite">
                         <p className='contenue__fiabilite'>Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</p>

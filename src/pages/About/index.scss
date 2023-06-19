@@ -12,3 +12,17 @@
         color: $color-primary;
     }
 }
+.banniereAbout{
+    .banniere{
+        &__filtreOpacite{
+            @media (max-width: 767px){
+                height: 300px;
+            }
+        }
+        &__image{
+            @media (max-width: 767px){
+                height: 300px;
+            }
+        }
+    }
+}
