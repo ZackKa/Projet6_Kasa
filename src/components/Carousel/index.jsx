@@ -28,9 +28,10 @@ function Carousel (props) {
                     <button onClick={Suivant}>
                         <i className="fa-solid fa-chevron-right"></i>
                     </button>
+                    <span>{open + 1}/{props.collapseImg.length}</span>
                 </div>
+                
             ) : null}
-            <span>{open + 1}/{props.collapseImg.length}</span>
         </div>
     )
 }
