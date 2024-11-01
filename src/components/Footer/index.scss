@@ -8,5 +8,9 @@ footer{
     background-color: black;
     p{
         color: white;
+        @media (max-width: 767px) {
+            width: 37%;
+            text-align: center;
+        }
     }
 }

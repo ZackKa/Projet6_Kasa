@@ -43,8 +43,10 @@
         animation: appear 0.3s;
         margin: 0;
         padding: 5px 10px;
+        color: $color-tertiary;
         ul{
             list-style-type: none;
+            margin-left: -30px;
         }
         &__hidden{
             font-size: 0;
@@ -56,8 +58,10 @@
             padding: 5px 10px;
             transition: opacity 0.1s, font-size 0.2s 0.15s;
             animation: desappear 0.7s;
+            color: $color-tertiary;
             ul{
                 list-style-type: none;
+                margin-left: -30px;
             }
         }
         
