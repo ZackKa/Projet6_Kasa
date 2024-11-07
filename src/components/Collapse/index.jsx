@@ -18,16 +18,6 @@ function Collapse (props) {
                     )}
             </div>
             
-            {/* {Array.isArray(props.type) ? (
-                <ul className={open ? "collapse__body" : "collapse__body__hidden"}>
-                {props.type.map((equipement, index) => (
-                    <li key={`${equipement}-${index}`}>{equipement}</li>
-                ))}
-            </ul>) : (
-                <div className={open ? "collapse__body" : "collapse__body__hidden"}>{props.children}</div>
-            )} */}
-
-
             <div className={open ? "collapse__body" : "collapse__body__hidden"}>
                 {Array.isArray(props.type) ? (
                     <ul>
